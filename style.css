@@ -1,0 +1,134 @@
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .header {
+    width: 950px;
+    height: 550px;
+    background-image: url('https://imagevars.gulfnews.com/2020/01/28/NAT-Kobe-tribute-1580223133516_16feca3774d_original-ratio.jpg');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .quote-1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+.container .content {
+    width: 1100px;
+    height: 678px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .content .bio-header {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 150px;
+    line-height: 120px;
+    padding-left: 30px;
+    font-size: 50px;
+    color: #b3adad;
+    font-weight: bold;
+    height: 120px;
+    width: 700px;
+}
+
+.container .content .main-content {
+    width: 800px;
+    height: 700px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container .content .main-content .number {
+    border-top: 2px solid #DDD;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    font-size: 16px;
+    margin: -1px 0 0 0;
+    padding: 4px 5px 6px 0;
+    clear: left;
+    font-weight: bold;
+}
+
+.container .content .main-content .description {
+    width: 625px;
+    background-color: #f9f9f9;
+    float: left;
+    padding: 8px 12px 8px 8px;
+    border-top: 1px solid #DDD;
+    clear: right;
+    font-size: 17px;
+}
+
+.container .content .side-content {
+    width: 290px;
+    height: 700px;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 680px;
+}
+
+.container .content .side-content .info {
+    font-size: 90%;
+    font-family: 'Dosis', sans-serif;
+    position: relative;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.container .content .side-content .info .nutshell {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.container .content .side-content .info .nutshell .image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 7px;
+}
+
+.th,
+.container .content .side-content .info td {
+    vertical-align: top;
+    border-bottom: 2px solid #DDD;
+    padding: 0.2em;
+}
+
+.container .footer {
+    height: 200px;
+    background-color: #db5adb;
+}
+
+.container .footer .text-footer {
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    position: relative;
+    top: 62px;
+    left: 297px;
+}
+
+a {
+    color: #553e3e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
